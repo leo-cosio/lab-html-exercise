@@ -34,26 +34,64 @@ nav a {
 }
 
 .npmLogo {
-  width: 150px;
+  width: 75px;
 }
 
-form {
-  display: flex;
+/*------Search Bar------*/
+
+  .search {
+    display: flex;
+    background-color: rgba(0,0,0,.05);
+    width: 50%;
+    justify-content: space-between;
+  }
+
+  .search > button {
+    background-color: #fb3e44;
+    color: white;
+    border: 0px;
+    padding: .5rem 2rem;
+    font-weight: bolder;
+  }
+
+  .searchBar {
+    display: flex;
+    border: 0px;
+    align-items: center;
+    width: 80%;
+  }
+
+  .searchBar > input {
+    background: transparent;
+    border: 0px;
+    height: 100%;
+    width: 100%;
+    outline: none;
+  }
+
+  .searchBar > img {
+    width: 25px;
+    padding: .5rem;
+  }
+
+  #searchSection {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
+
+/*--------------------*/
+
+
+#joinLogInButtons a {
+  outline: none;
+  color: black;
+  text-decoration: none;
+  padding: .3rem 1.2rem;
+  font-size: 14px;
 }
 
-form > input {
-  background-color: rgba(0,0,0,.05);
-  border: 0px;
-}
-
-form > button {
-  background-color: #fb3e44;
-  color: white;
-  border: 0px;
-}
-
-label > img {
-  width: 25px;
+#join {
+  border: 1px solid #cccccc;
 }
 
 #buildAmazingThings {

@@ -26,17 +26,19 @@
       </nav>
     </div>
 
-    <div>
+    <div id="searchSection">
       <img class="npmLogo" src="./images/npm-logo.png" alt="NPM">
 
-      <form action="">
-        <label for="searchBar"><img src="./images/magnifying-glass.png" alt="magnifying-glass"></label>
-        <input type="search" name="searchPackages" id="searchBar">
+      <form action="" class="search">
+        <div class="searchBar">
+          <img src="./images/magnifying-glass.png" alt="magnifying-glass">
+          <input type="search" name="searchPackages" id="searchBar" placeholder="Search Packages">
+        </div>
         <button type="submit">Search</button>
       </form>
 
-      <div>
-        <a href="#">Join</a>
+      <div id="joinLogInButtons">
+        <a href="#" id="join">Join</a>
         <a href="#">Log In</a>
       </div>
     </div>
