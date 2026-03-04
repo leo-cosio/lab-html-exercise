@@ -55,3 +55,33 @@ form > button {
 label > img {
   width: 25px;
 }
+
+#buildAmazingThings {
+  background-color: #F8F4F4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#buildAmazingThings > h1 {
+  font-size: 64px;
+}
+
+#bringTheBest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bringTheBest > img{
+  width: 250px;
+}
+
+.details {
+  display: flex;
+
+}
+
+.details img {
+  width: 50px;
+}
