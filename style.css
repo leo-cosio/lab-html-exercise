@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Poppins';
+  margin-bottom: 6rem;
 }
 
 header > div {
@@ -113,6 +114,7 @@ nav a {
   #buildAmazingThings > article {
     width: 50%;
     text-align: center;
+    margin-bottom: 3rem;
   }
 
   .seePlans {
@@ -123,8 +125,8 @@ nav a {
     background-color: #FB3B49;
     color: white;
     text-decoration: none;
-    padding: .5rem 3rem;
-    font-size: small;
+    padding: 1rem 5rem;
+    font-size: medium;
     font-weight: bold;
     box-shadow: 8px 8px 0 rgba(251,59,73,.2);
     margin: 1rem;
@@ -135,29 +137,78 @@ nav a {
     color: black;
     font-weight: bold;
     text-decoration: none;
-    padding: .5rem 3rem;
-    font-size: small;
+    padding: 1rem 5rem;
+    font-size: medium;
     margin: 1rem;
   }
 
 
 /*--------------------*/
 
-#bringTheBest {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
-#bringTheBest > img{
-  width: 250px;
+/*------Bring The Best------*/
+
+
+  #bringTheBest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 0;
+  }
+
+  #bringTheBest > h2 {
+      font-size: 32px;
+      text-align: center;
+      background-color: rgba(255,204,53,.4);
+      transform: skew(9deg,0deg);
+      font-style: italic;
+      padding: 0 2rem;
+      margin-top: 4rem;
+    }
+
+  #bringTheBest > article {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 6rem;
+  }
+
+  #bringTheBest > img{
+    width: 250px;
+  }
+
+
+/*--------------------*/
+
+#createAnOrg {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .details {
   display: flex;
+  margin: 0 10%;
+  justify-content: space-between;
+}
 
+.details div {
+  margin: 0 1rem;
 }
 
 .details img {
-  width: 50px;
+  width: 40px;
+}
+
+.details h3 {
+  color: #ED1C24;
+}
+
+#createOrgButton {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  font-weight: bold;
+  padding: 1rem 10%;
+  box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+  margin-top: 4rem;
 }
